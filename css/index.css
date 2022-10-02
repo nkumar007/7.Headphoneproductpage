@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Poppins", "Helvetica Neue", Helvetica;
+  /* background-color: #fe5e35; */
+  height: 130vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 5rem;
+}
+nav img:last-of-type {
+  margin: 0 -5rem;
+}
+.nav-items {
+  display: flex;
+  gap: 5rem;
+}
+.nav-item {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.active-item {
+  color: #fe5e35;
+  font-weight: 800;
+  margin-left: 6rem;
+}
+
+.intro-section {
+  display: flex;
+  position: relative;
+}
+
+.left-section {
+  width: 50vw;
+}
+.right-section {
+  width: 50vw;
+}
+.left-section h3 {
+  margin-left: 5rem;
+  font-size: 3rem;
+}
+.left-section h3 img {
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+.left-section h1 {
+  margin-left: 5rem;
+  /* margin-top: 1rem; */
+  font-size: 6rem;
+  font-weight: 900;
+  /* font-style: bold; */
+}
+
+.sub-headlines {
+  margin-left: 8rem;
+}
+
+.sub-headline {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 100%;
+}
+.left-section .text {
+  margin-left: 5rem;
+}
+
+.action-btns {
+  margin-left: 7rem;
+  margin-top: 5rem;
+}
+.action-btn {
+  margin-right: 3rem;
+  border: 0;
+  outline: 0;
+  color: #ffff;
+  font-size: 2rem;
+  background-color: #fe5e35;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+}
+
+.right-section {
+  position: absolute;
+  left: 50%;
+}
+.discount-content h4 {
+  position: absolute;
+  top: 35rem;
+  right: 83%;
+}
+.discount-content h1 {
+  position: absolute;
+  top: 35rem;
+  right: 80%;
+
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.headphone-div img:last-of-type {
+  position: absolute;
+  left: 3rem;
+  top: 0;
+  z-index: -1;
+}
+
+.headphone-div img:first-of-type {
+  position: absolute;
+  top: 32rem;
+}
+
+.right-section .action-btn {
+  position: absolute;
+  bottom: -10rem;
+  left: 24rem;
+}
